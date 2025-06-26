@@ -12,10 +12,10 @@ Features include:
  Adding and removing products from a client-side shopping cart without affecting the main product list
 
 Technologies used:
-HTML5, CSS3, JavaScript (ES6+), JSON Server
+HTML5, CSS3, JavaScript, JSON Server
 
 To run the project locally:
- Clone the repository using the command: git clone https://github.com/your-username/mini-ecommerce.git
+ Clone the repository using the command: git clone git@github.com:Derrick20264/Mini-commerce.git
  Navigate into the project folder: cd mini-ecommerce
  Install JSON Server globally if not already installed: npm install -g json-server
  Start the server with: json-server --watch db.json
@@ -27,6 +27,7 @@ Project folder structure:
  src/index.js contains the application logic and DOM interactions
  db.json serves as the mock database for storing product data
  README.md provides project documentation
+ License
 
 Author: Derrick Wachira, Software Engineering Student at Moringa School
 
