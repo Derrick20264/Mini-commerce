@@ -1,8 +1,8 @@
 let allProducts = [];
-let cart = []; // GLOBAL cart array
+let cart = []; 
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("http://localhost:3000/products")
+  fetch("https://json-server-1-3cy7.onrender.com/products")
     .then(res => res.json())
     .then(products => {
       allProducts = products;
@@ -46,7 +46,7 @@ function renderProduct(product) {
     const isLiked = likeBtn.dataset.liked === "true";
     const newLikes = isLiked ? product.likes - 1 : product.likes + 1;
 
-    fetch(`http://localhost:3000/products/${product.id}`, {
+    fetch("https://json-server-1-3cy7.onrender.com/products", {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ likes: newLikes })
@@ -59,16 +59,16 @@ function renderProduct(product) {
       });
   });
 
-  // Delete functionality
-  const deleteBtn = card.querySelector(".delete-btn");
-  deleteBtn.addEventListener("click", () => {
-    fetch(`http://localhost:3000/products/${product.id}`, {
-      method: "DELETE"
-    })
-    .then(() => {
-      card.remove();
-    });
+// Delete functionality
+const deleteBtn = card.querySelector(".delete-btn");
+deleteBtn.addEventListener("click", () => {
+  fetch("https://json-server-1-3cy7.onrender.com/products", {
+    method: "DELETE"
+  })
+  .then(() => {
+    card.remove();
   });
+});
 
   productList.appendChild(card);
 }
@@ -87,7 +87,7 @@ function renderCart() {
   cart.forEach((item, index) => {
     const li = document.createElement("li");
     li.innerHTML = `
-      ${item.name} - Ksh ${item.price}
+      {item.name} - Ksh ${item.price}
       <button class="cart-remove-btn">Remove</button>
     `;
     li.querySelector(".cart-remove-btn").addEventListener("click", () => {
@@ -120,7 +120,7 @@ form.addEventListener("submit", (e) => {
     likes: 0
   };
 
-  fetch("http://localhost:3000/products", {
+ fetch("https://json-server-1-3cy7.onrender.com/products", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(newProduct)
