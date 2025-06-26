@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Enfants riches deprimés t-shirt",
+      "category": "Clothing",
+      "price": "3500",
+      "image": "https://bankofgrails.com/cdn/shop/files/pixelcut_1_2dc2f92b-1356-4d15-b532-0d499b8786f2_1500x.png?v=1722100429",
+      "likes": 0
+    },
+    {
+      "id": "3",
+      "name": "revengexstorm",
+      "price": "2500",
+      "category": "Shoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_oLPX-ldAD7iwz4DIYZU0T24Hrpe6DNSnQ&s",
+      "likes": 0
+    },
+    {
+      "id": "42e2",
+      "name": "Hysteric Glamour baggy jeans",
+      "price": "3500",
+      "category": "Clothing",
+      "image": "https://media-assets.grailed.com/prd/listing/temp/f544e292c3644f99815a6714c3dc2646?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "b450",
+      "name": "Balenciaga  Oversize bag pack",
+      "price": "4000",
+      "category": "Clothing",
+      "image": "https://media-assets.grailed.com/prd/listing/46906433/79b3c0e00cec49de8e8e78ae23846238?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "ccf2",
+      "name": "Vetements  VETEMENTS TOTAL FUCKING DARKNESS REVERSIBLE BOMBER HOODIE",
+      "price": "5000",
+      "category": "Clothing",
+      "image": "https://media-assets.grailed.com/prd/listing/43998230/7e3b9d0e0b8d4dad83eb05036232f826?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "d5f2",
+      "name": "8.25in Delfino Inferno Skateboard Deck",
+      "price": "3000",
+      "category": "Accessories",
+      "image": "https://img.nhs-info.com/products/79960/825in-delfino-inferno-santa-cruz-skateboard-deck__d__xl__320.jpeg",
+      "likes": 0
+    },
+    {
+      "id": "58b4",
+      "name": "Almost There Vinyl :lucki",
+      "price": "5500",
+      "category": "Accessories",
+      "image": "https://store.empi.re/cdn/shop/products/Vinyl.jpg?v=1703034956&width=1100",
+      "likes": 0
+    },
+    {
+      "id": "8187",
+      "name": "squidtastic vinyl :Sahbabii",
+      "price": "5500",
+      "category": "Accessories",
+      "image": "https://diggers-public.s3.eu-west-3.amazonaws.com/projects/19a58f87-5e59-4903-a249-54424ec62a59/cover.jpg",
+      "likes": 0
+    },
+    {
+      "id": "c738",
+      "name": "Maison Margiela Future High ‘Red’",
+      "price": "3500",
+      "category": "Shoes",
+      "image": "https://media-assets.grailed.com/prd/listing/temp/de84d227e4874663b9b05b8c47afdc93?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "794a",
+      "name": "Needles Award Faux Leather Jacket",
+      "price": "4500",
+      "category": "clothing ",
+      "image": "https://media-assets.grailed.com/prd/listing/temp/ca7427a228c84a1294c573096bec5242?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "4e10",
+      "name": "Supreme  Frank Frazetta Zip Up Hooded Sweatshirt",
+      "price": "2500",
+      "category": "clothing ",
+      "image": "https://media-assets.grailed.com/prd/listing/temp/80e19b5e32374f82ac295498138560bc?w=1500",
+      "likes": 0
+    },
+    {
+      "id": "7a53",
+      "name": "Don’t Stop Limited Edition LP:Billy idol",
+      "price": "5500",
+      "category": "Accessories ",
+      "image": "https://thesoundofvinyl.us/cdn/shop/files/Untitled-2025-06-23T120433.743.png?v=1750694970&width=800",
+      "likes": 0
+    },
+    {
+      "id": "67aa",
+      "name": "8.0in Sommer Sparrows Santa Cruz Skateboard Deck",
+      "price": "3500",
+      "category": "Accessories ",
+      "image": "https://nhsskatedirect.com/cdn/shop/files/11117354_157595_79668_800in_x_3050in_Sommer_Sparrows_Pro_Santa_Cruz_Skateboard_Deck_size_800inx3050in_1800x.jpg?v=1749189814",
+      "likes": 0
+    },
+    {
+      "id": "34f2",
+      "name": "Beautiful Thugger Girls Young Thug",
+      "price": "5500",
+      "category": "Accessories ",
+      "image": "https://www.vinylmeplease.com/cdn/shop/files/YoungThug-BeautifulThuggerGirls.jpg?v=1716910242&width=1300",
+      "likes": 0
+    }
+  ]
+}
