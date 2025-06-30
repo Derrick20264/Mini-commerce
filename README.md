@@ -1,34 +1,51 @@
-Mini E-Commerce - Single Page Application
+# Mini E-Commerce - Single Page Application
 
 This project is a lightweight e-commerce single-page application (SPA) developed using HTML, CSS, and JavaScript. It simulates a basic online shopping experience with dynamic product interactions powered by a local JSON server.
 
 The application was built as part of a software engineering course to demonstrate understanding of frontend development concepts including DOM manipulation, asynchronous data fetching, and basic CRUD operations using a mock API.
 
-Features include:
- Displaying products retrieved from a local JSON server
- Adding new products using a form (product name, price, category, and image)
- Filtering displayed products by category
- Liking individual products to increase their like count
- Adding and removing products from a client-side shopping cart without affecting the main product list
+## Features
 
-Technologies used:
-HTML5, CSS3, JavaScript, JSON Server
+- Display products fetched from a local JSON server
+- Add new products using a form (product name, price, category, and image)
+- Filter products by category
+- Like individual products to increase their like count
+- Add and remove products from a client-side shopping cart (does not affect the main product list)
 
-To run the project locally:
- Clone the repository using the command: git clone git@github.com:Derrick20264/Mini-commerce.git
- Navigate into the project folder: cd mini-ecommerce
- Install JSON Server globally if not already installed: npm install -g json-server
- Start the server with: json-server --watch db.json
- Open index.html in your browser or use a development server like Live Server in VS Code
+## Technologies Used
 
-Project folder structure:
- index.html contains the main HTML structure
- css/style.css includes all styles for layout and design
- src/index.js contains the application logic and DOM interactions
- db.json serves as the mock database for storing product data
- README.md provides project documentation
- License
+- HTML5  
+- CSS3  
+- JavaScript  
+- JSON Server
 
-Author: Derrick Wachira, Software Engineering Student at Moringa School
+## Getting Started
 
-License: This project is licensed under the MIT License. See the LICENSE file for more information.
+1. Clone the repository:
+git clone git@github.com:Derrick20264/Mini-commerce.git
+cd Mini-commerce
+
+2. Install JSON Server globally (if not already installed):
+
+3. Start the JSON Server:
+
+
+4. Open `index.html` in your browser, or use the Live Server extension in VS Code.
+
+## Project Structure
+
+- `index.html` – Main HTML structure  
+- `css/style.css` – Layout and design styles  
+- `src/index.js` – JavaScript logic and DOM interaction  
+- `db.json` – Mock database for product data  
+- `README.md` – Project documentation  
+- `LICENSE` – MIT License  
+
+## Author
+
+Derrick Wachira  
+Software Engineering Student at Moringa School
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
