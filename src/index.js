@@ -2,7 +2,7 @@ let allProducts = [];
 let cart = []; 
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("https://json-server-1-3cy7.onrender.com/products")
+  fetch("https://json-server-3-5fa8.onrender.com/products")
     .then(res => res.json())
     .then(products => {
       allProducts = products;
@@ -46,7 +46,7 @@ function renderProduct(product) {
     const isLiked = likeBtn.dataset.liked === "true";
     const newLikes = isLiked ? product.likes - 1 : product.likes + 1;
 
-    fetch("https://json-server-1-3cy7.onrender.com/products", {
+    fetch("https://json-server-3-5fa8.onrender.com/products", {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ likes: newLikes })
@@ -62,7 +62,7 @@ function renderProduct(product) {
 // Delete functionality
 const deleteBtn = card.querySelector(".delete-btn");
 deleteBtn.addEventListener("click", () => {
-  fetch("https://json-server-1-3cy7.onrender.com/products", {
+  fetch("https://json-server-3-5fa8.onrender.com/products", {
     method: "DELETE"
   })
   .then(() => {
@@ -120,7 +120,7 @@ form.addEventListener("submit", (e) => {
     likes: 0
   };
 
- fetch("https://json-server-1-3cy7.onrender.com/products", {
+ fetch("https://json-server-3-5fa8.onrender.com/products", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(newProduct)
